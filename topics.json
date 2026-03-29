@@ -1,0 +1,55 @@
+{
+  "Runway 使い方": [
+    {"keyword": "Runway 始め方 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Runway 無料版でできること", "priority": "high", "status": "pending"},
+    {"keyword": "Runway テキストtoビデオ やり方", "priority": "high", "status": "pending"},
+    {"keyword": "Runway プロンプトの書き方 コツ", "priority": "medium", "status": "pending"},
+    {"keyword": "Runway 画像からAI動画 変換", "priority": "medium", "status": "pending"}
+  ],
+  "Runway 料金・プラン": [
+    {"keyword": "Runway 料金プラン 2026 最新", "priority": "high", "status": "pending"},
+    {"keyword": "Runway 無料 有料 違い", "priority": "high", "status": "pending"},
+    {"keyword": "Runway Pro Unlimited 比較", "priority": "high", "status": "pending"},
+    {"keyword": "Runway クレジット 節約術", "priority": "medium", "status": "pending"}
+  ],
+  "Runway Gen-4": [
+    {"keyword": "Runway Gen-4 新機能まとめ", "priority": "high", "status": "pending"},
+    {"keyword": "Gen-4 モーション制御 完全ガイド", "priority": "high", "status": "pending"},
+    {"keyword": "Gen-4 カメラワーク設定 方法", "priority": "high", "status": "pending"},
+    {"keyword": "Gen-4 画質向上テクニック", "priority": "medium", "status": "pending"},
+    {"keyword": "Gen-4 10秒動画 生成のコツ", "priority": "medium", "status": "pending"}
+  ],
+  "Runway vs Veo": [
+    {"keyword": "Runway Veo 比較 2026年最新", "priority": "high", "status": "pending"},
+    {"keyword": "Runway vs Google Veo どっちがいい", "priority": "high", "status": "pending"},
+    {"keyword": "AI動画生成ツール 比較ランキング", "priority": "medium", "status": "pending"},
+    {"keyword": "Runway Kling 比較 画質", "priority": "medium", "status": "pending"}
+  ],
+  "AI動画生成テクニック": [
+    {"keyword": "AI動画 プロンプト テンプレート集", "priority": "high", "status": "pending"},
+    {"keyword": "AI動画 モーション制御 上級テクニック", "priority": "high", "status": "pending"},
+    {"keyword": "AI動画 商用利用 著作権ガイド", "priority": "high", "status": "pending"},
+    {"keyword": "AI動画 高画質化 アップスケール", "priority": "medium", "status": "pending"},
+    {"keyword": "AI動画 カメラアングル 指定方法", "priority": "medium", "status": "pending"}
+  ],
+  "Runway 最新ニュース": [
+    {"keyword": "Runway Gen-4 Turbo 最新情報", "priority": "high", "status": "pending"},
+    {"keyword": "Runway 2026年 アップデートまとめ", "priority": "high", "status": "pending"},
+    {"keyword": "Runway API 新機能 開発者向け", "priority": "medium", "status": "pending"},
+    {"keyword": "AI動画生成 業界動向 2026", "priority": "medium", "status": "pending"},
+    {"keyword": "Runway 新料金体系 変更点", "priority": "medium", "status": "pending"}
+  ],
+  "Sora代替比較": [
+    {"keyword": "Sora 終了 代替ツール おすすめ", "priority": "high", "status": "pending"},
+    {"keyword": "OpenAI Sora 代わり Runway", "priority": "high", "status": "pending"},
+    {"keyword": "Sora代替 AI動画生成 無料", "priority": "high", "status": "pending"},
+    {"keyword": "Sora終了後 主力AI動画ツール", "priority": "medium", "status": "pending"}
+  ],
+  "Runway 活用事例": [
+    {"keyword": "Runway CM制作 活用事例", "priority": "high", "status": "pending"},
+    {"keyword": "Runway ミュージックビデオ 作り方", "priority": "high", "status": "pending"},
+    {"keyword": "Runway SNS動画 バズるコンテンツ", "priority": "medium", "status": "pending"},
+    {"keyword": "Runway ポートフォリオ 映像作品", "priority": "medium", "status": "pending"},
+    {"keyword": "Runway Premiere Pro 連携ワークフロー", "priority": "medium", "status": "pending"}
+  ]
+}
