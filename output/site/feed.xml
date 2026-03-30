@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Runway AI動画クリエイターズガイド</title>
+    <link>https://musclelove-777.github.io/runway-creators-guide</link>
+    <description>プロ向けAI動画生成RunwayのGen-4使い方・最新機能・Veo比較を毎日更新。映像クリエイターのためのAI動画生成完全ガイド。</description>
+    <language>ja</language>
+    <lastBuildDate>Mon, 30 Mar 2026 05:23:37 +0900</lastBuildDate>
+    <atom:link href="https://musclelove-777.github.io/runway-creators-guide/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Runway 使い方 2026年最新版！AI動画生成でプロ級映像を</title>
+      <link>https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html</link>
+      <guid>https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html</guid>
+      <description></description>
+      <category>Runway 使い方</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

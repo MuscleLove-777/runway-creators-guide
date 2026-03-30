@@ -1,0 +1,894 @@
+
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Runway 使い方 2026年最新版！AI動画生成でプロ級映像を | Runway AI動画クリエイターズガイド</title>
+
+    
+    <meta name="description" content="">
+    <meta name="author" content="Runway AI動画クリエイターズガイド">
+    <link rel="canonical" href="https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html">
+
+    
+    <meta property="og:site_name" content="Runway AI動画クリエイターズガイド">
+    <meta property="og:title" content="Runway 使い方 2026年最新版！AI動画生成でプロ級映像を">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html">
+    <meta property="og:locale" content="ja_JP">
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Runway 使い方 2026年最新版！AI動画生成でプロ級映像を">
+    <meta name="twitter:description" content="">
+
+    
+    <link rel="alternate" type="application/rss+xml" title="Runway AI動画クリエイターズガイド" href="https://musclelove-777.github.io/runway-creators-guide/feed.xml">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    
+    
+
+    
+    
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Runway 使い方 2026年最新版！AI動画生成でプロ級映像を",
+    "description": "",
+    "datePublished": "2026-03-30",
+    "dateModified": "2026-03-30",
+    "author": {"@type": "Organization", "name": "Runway AI動画クリエイターズガイド"},
+    "publisher": {"@type": "Organization", "name": "Runway AI動画クリエイターズガイド"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html"}
+    ,"keywords": "Runway 使い方, AI動画生成, Gen-4, プロンプト, モーション制御"
+}
+</script>
+
+
+    <style>
+        /* =============================================
+           CSS変数: テーマカラー（config.THEMEから注入）
+           ============================================= */
+        :root {
+            --color-dark-bg: #0a0a1a;
+            --color-dark-surface: #16213e;
+            --color-primary: #6c5ce7;
+            --color-accent: #a29bfe;
+            --color-text-dark: #eeeeee;
+            --color-text-muted-dark: #a0aec0;
+
+            --color-light-bg: #f5f3ff;
+            --color-light-surface: #ffffff;
+            --color-text-light: #1a202c;
+            --color-text-muted-light: #64748b;
+
+            --font-sans: 'Inter', 'Noto Sans JP', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+
+            --max-width: 1280px;
+            --sidebar-width: 320px;
+            --header-height: 64px;
+            --radius: 12px;
+            --radius-sm: 8px;
+            --radius-pill: 9999px;
+
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        [data-theme="dark"] {
+            --bg: var(--color-dark-bg);
+            --surface: var(--color-dark-surface);
+            --text: var(--color-text-dark);
+            --text-muted: var(--color-text-muted-dark);
+            --border: rgba(255,255,255,0.08);
+            --code-bg: rgba(255,255,255,0.06);
+        }
+
+        [data-theme="light"] {
+            --bg: var(--color-light-bg);
+            --surface: var(--color-light-surface);
+            --text: var(--color-text-light);
+            --text-muted: var(--color-text-muted-light);
+            --border: rgba(0,0,0,0.08);
+            --code-bg: #f1f5f9;
+        }
+
+        @media (prefers-color-scheme: light) {
+            [data-theme="auto"] {
+                --bg: var(--color-light-bg);
+                --surface: var(--color-light-surface);
+                --text: var(--color-text-light);
+                --text-muted: var(--color-text-muted-light);
+                --border: rgba(0,0,0,0.08);
+                --code-bg: #f1f5f9;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            [data-theme="auto"] {
+                --bg: var(--color-dark-bg);
+                --surface: var(--color-dark-surface);
+                --text: var(--color-text-dark);
+                --text-muted: var(--color-text-muted-dark);
+                --border: rgba(255,255,255,0.08);
+                --code-bg: rgba(255,255,255,0.06);
+            }
+        }
+
+        /* =============================================
+           リセット・基本
+           ============================================= */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100vh;
+        }
+
+        /* =============================================
+           流体タイポグラフィ
+           ============================================= */
+        h1 { font-size: clamp(1.75rem, 2.5vw + 1rem, 2.5rem); font-weight: 800; line-height: 1.3; }
+        h2 { font-size: clamp(1.35rem, 1.8vw + 0.8rem, 1.75rem); font-weight: 700; line-height: 1.35; }
+        h3 { font-size: clamp(1.1rem, 1.2vw + 0.6rem, 1.35rem); font-weight: 600; line-height: 1.4; }
+        h4 { font-size: 1.1rem; font-weight: 600; }
+        p { margin-bottom: 1em; }
+
+        a { color: var(--color-accent); text-decoration: none; transition: color 0.2s, opacity 0.2s; }
+        a:hover { opacity: 0.85; text-decoration: underline; }
+        img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
+
+        code {
+            font-family: var(--font-mono);
+            background: var(--code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.88em;
+        }
+        pre {
+            background: var(--code-bg);
+            padding: 1.25em;
+            border-radius: var(--radius-sm);
+            overflow-x: auto;
+            margin-bottom: 1.5em;
+            border: 1px solid var(--border);
+        }
+        pre code { background: none; padding: 0; }
+
+        blockquote {
+            border-left: 4px solid var(--color-accent);
+            padding: 0.75em 1.25em;
+            margin: 1.5em 0;
+            color: var(--text-muted);
+            background: var(--code-bg);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 1.5em; }
+        th, td { padding: 0.75em 1em; border: 1px solid var(--border); text-align: left; }
+        th { background: var(--code-bg); font-weight: 600; }
+
+        /* =============================================
+           レイアウト
+           ============================================= */
+        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
+        .layout-main { display: flex; gap: 2.5rem; margin-top: 2rem; margin-bottom: 3rem; }
+        .content-area { flex: 1; min-width: 0; }
+        .sidebar { width: var(--sidebar-width); flex-shrink: 0; }
+
+        @media (max-width: 900px) {
+            .layout-main { flex-direction: column; }
+            .sidebar { width: 100%; }
+        }
+
+        /* =============================================
+           ヘッダー
+           ============================================= */
+        .site-header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: var(--header-height);
+        }
+        .site-logo a {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--color-accent);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+        .site-logo a:hover { opacity: 1; text-decoration: none; }
+        .header-right { display: flex; align-items: center; gap: 1.5rem; }
+        .site-nav { display: flex; align-items: center; gap: 1.25rem; }
+        .site-nav a {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .site-nav a:hover { color: var(--color-accent); text-decoration: none; }
+
+        /* ダークモード切替ボタン */
+        .theme-toggle {
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-pill);
+            cursor: pointer;
+            padding: 6px 10px;
+            font-size: 1.1rem;
+            line-height: 1;
+            color: var(--text);
+            transition: background 0.2s;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .theme-toggle:hover { background: var(--color-primary); }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            min-width: 44px;
+            min-height: 44px;
+        }
+        .menu-toggle span {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: var(--text);
+            margin: 5px auto;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle { display: block; }
+            .site-nav {
+                display: none;
+                position: absolute;
+                top: var(--header-height);
+                left: 0; right: 0;
+                background: var(--surface);
+                flex-direction: column;
+                padding: 1rem;
+                border-bottom: 1px solid var(--border);
+                box-shadow: var(--shadow-md);
+            }
+            .site-nav.open { display: flex; }
+            .site-nav a { padding: 10px 0; min-height: 44px; display: flex; align-items: center; }
+        }
+
+        /* =============================================
+           Bentoカードグリッド
+           ============================================= */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .card:hover { transform: scale(1.02); box-shadow: var(--shadow-lg); }
+
+        .card-thumb {
+            aspect-ratio: 16 / 9;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .card-thumb-text {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgba(255,255,255,0.15);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .card-body { padding: 1.25rem 1.5rem; }
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-title a { color: var(--text); }
+        .card-title a:hover { color: var(--color-accent); text-decoration: none; }
+
+        .card-meta {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .card-excerpt {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+
+        /* モバイル: カード横型 */
+        @media (max-width: 640px) {
+            .card-grid { grid-template-columns: 1fr; }
+            .card { display: flex; flex-direction: row; }
+            .card-thumb { aspect-ratio: 1 / 1; width: 120px; min-height: 120px; flex-shrink: 0; }
+            .card-body { padding: 1rem; flex: 1; min-width: 0; }
+            .card-title { font-size: 0.95rem; }
+            .card-excerpt { -webkit-line-clamp: 2; }
+        }
+
+        /* =============================================
+           タグ（ピル型バッジ）
+           ============================================= */
+        .tag {
+            display: inline-block;
+            padding: 0.2em 0.65em;
+            font-size: 0.75rem;
+            background: var(--code-bg);
+            color: var(--text-muted);
+            border-radius: var(--radius-pill);
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+        .tag:hover { background: var(--color-accent); color: #fff; text-decoration: none; }
+
+        .category-badge {
+            display: inline-block;
+            padding: 0.2em 0.7em;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: var(--color-accent);
+            color: #fff;
+            border-radius: var(--radius-pill);
+            text-decoration: none;
+        }
+        .category-badge:hover { opacity: 0.85; color: #fff; text-decoration: none; }
+
+        .reading-time {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3em;
+            padding: 0.2em 0.7em;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: rgba(233,69,96,0.12);
+            color: var(--color-accent);
+            border-radius: var(--radius-pill);
+        }
+
+        /* =============================================
+           パンくず・記事本文・目次
+           ============================================= */
+        .breadcrumb {
+            display: flex; align-items: center; gap: 0.5rem;
+            font-size: 0.85rem; color: var(--text-muted);
+            margin-bottom: 1.5rem; flex-wrap: wrap;
+        }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--color-accent); }
+        .breadcrumb-sep { color: var(--text-muted); opacity: 0.5; }
+
+        .article-header { margin-bottom: 2rem; }
+        .article-title {
+            font-size: clamp(1.5rem, 3vw + 0.5rem, 2.2rem);
+            font-weight: 800; line-height: 1.3; margin-bottom: 0.75rem;
+        }
+        .article-meta {
+            display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+            color: var(--text-muted); font-size: 0.88rem;
+        }
+
+        .article-body { font-size: 1rem; line-height: 1.9; }
+        .article-body h2 { margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.4em; border-bottom: 2px solid var(--color-accent); }
+        .article-body h3 { margin-top: 2rem; margin-bottom: 0.75rem; }
+        .article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+        .article-body li { margin-bottom: 0.4em; }
+
+        .toc-container {
+            background: var(--code-bg); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.25rem 1.5rem; margin-bottom: 2rem;
+        }
+        .toc-title { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--color-accent); }
+        .toc-container ul { list-style: none; padding-left: 0; margin: 0; }
+        .toc-container li { margin-bottom: 0.3em; }
+        .toc-container ul ul { padding-left: 1.25em; }
+        .toc-container a { color: var(--text-muted); font-size: 0.88rem; }
+        .toc-container a:hover { color: var(--color-accent); }
+
+        /* =============================================
+           SNSシェア・ページネーション
+           ============================================= */
+        .share-buttons { display: flex; gap: 0.6rem; margin: 2rem 0; flex-wrap: wrap; }
+        .share-btn {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.5em 1em; border-radius: var(--radius-sm);
+            font-size: 0.82rem; font-weight: 600; color: #fff;
+            text-decoration: none; transition: opacity 0.2s; min-height: 44px;
+        }
+        .share-btn:hover { opacity: 0.85; color: #fff; text-decoration: none; }
+        .share-btn-twitter { background: #1DA1F2; }
+        .share-btn-facebook { background: #1877F2; }
+        .share-btn-hatena { background: #00A4DE; }
+        .share-btn-line { background: #06C755; }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin: 2.5rem 0; }
+        .pagination a, .pagination span {
+            display: inline-flex; align-items: center; justify-content: center;
+            min-width: 44px; height: 44px; padding: 0 0.5em;
+            border-radius: var(--radius-sm); font-size: 0.9rem; font-weight: 500;
+            text-decoration: none; transition: background 0.2s, color 0.2s;
+        }
+        .pagination a { color: var(--text-muted); background: var(--surface); border: 1px solid var(--border); }
+        .pagination a:hover { background: var(--color-accent); color: #fff; border-color: var(--color-accent); text-decoration: none; }
+        .pagination .current { background: var(--color-accent); color: #fff; border: 1px solid var(--color-accent); }
+
+        /* =============================================
+           サイドバー
+           ============================================= */
+        .sidebar-widget {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1.5rem;
+        }
+        .sidebar-widget-title {
+            font-size: 0.95rem; font-weight: 700; margin-bottom: 1rem;
+            padding-bottom: 0.5rem; border-bottom: 2px solid var(--color-accent);
+        }
+        .sidebar-category-list { list-style: none; padding: 0; }
+        .sidebar-category-list li { margin-bottom: 0.3rem; }
+        .sidebar-category-list a {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 0.5rem 0; color: var(--text-muted); font-size: 0.88rem;
+            border-bottom: 1px solid var(--border); text-decoration: none; min-height: 44px;
+        }
+        .sidebar-category-list a:hover { color: var(--color-accent); text-decoration: none; }
+        .sidebar-category-count {
+            font-size: 0.78rem; background: var(--code-bg);
+            padding: 0.15em 0.5em; border-radius: var(--radius-pill);
+        }
+
+        .adsense-slot { margin: 1.5rem 0; text-align: center; }
+
+        /* =============================================
+           フッター
+           ============================================= */
+        .site-footer {
+            background: var(--surface); border-top: 1px solid var(--border);
+            padding: 2.5rem 0; margin-top: 3rem;
+        }
+        .footer-inner {
+            display: flex; justify-content: space-between;
+            align-items: flex-start; flex-wrap: wrap; gap: 2rem;
+        }
+        .footer-section h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.75rem; }
+        .footer-links { list-style: none; padding: 0; }
+        .footer-links li { margin-bottom: 0.3rem; }
+        .footer-links a { color: var(--text-muted); font-size: 0.85rem; }
+        .footer-links a:hover { color: var(--color-accent); }
+        .footer-copyright {
+            text-align: center; margin-top: 2rem; padding-top: 1.5rem;
+            border-top: 1px solid var(--border); font-size: 0.82rem; color: var(--text-muted);
+        }
+
+        /* =============================================
+           ユーティリティ
+           ============================================= */
+        .text-center { text-align: center; }
+        .text-muted { color: var(--text-muted); }
+        .mt-1 { margin-top: 0.5rem; }
+        .mt-2 { margin-top: 1rem; }
+        .mt-3 { margin-top: 1.5rem; }
+        .mb-1 { margin-bottom: 0.5rem; }
+        .mb-2 { margin-bottom: 1rem; }
+        .mb-3 { margin-bottom: 1.5rem; }
+        .empty-state { text-align: center; padding: 4rem 1rem; color: var(--text-muted); }
+        .empty-state p { font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+
+    
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="site-logo">
+                <a href="https://musclelove-777.github.io/runway-creators-guide/index.html">Runway AI動画クリエイターズガイド</a>
+            </div>
+
+            <div class="header-right">
+                <nav class="site-nav" id="siteNav">
+                    <a href="https://musclelove-777.github.io/runway-creators-guide/index.html">ホーム</a>
+                    
+                    <a href="https://musclelove-777.github.io/runway-creators-guide/feed.xml">RSS</a>
+                </nav>
+
+                <button class="theme-toggle" id="themeToggle" aria-label="テーマ切替" title="ダーク/ライト切替">
+                    <span id="themeIcon">&#9790;</span>
+                </button>
+
+                <button class="menu-toggle" aria-label="メニュー" onclick="document.getElementById('siteNav').classList.toggle('open')">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="container">
+        
+<div class="layout-main">
+    <div class="content-area">
+        <nav class="breadcrumb" aria-label="パンくずリスト">
+            <a href="https://musclelove-777.github.io/runway-creators-guide/index.html">ホーム</a>
+            <span class="breadcrumb-sep">/</span>
+            
+            <a href="https://musclelove-777.github.io/runway-creators-guide/category/Runway 使い方.html">Runway 使い方</a>
+            <span class="breadcrumb-sep">/</span>
+            
+            <span>Runway 使い方 2026年最新版！AI動画生成でプロ級映像を</span>
+        </nav>
+
+        <article>
+            <header class="article-header">
+                <h1 class="article-title">Runway 使い方 2026年最新版！AI動画生成でプロ級映像を</h1>
+                <div class="article-meta">
+                    <span>2026-03-30</span>
+                    <span class="reading-time">3分で読める</span>
+                    <a href="https://musclelove-777.github.io/runway-creators-guide/category/Runway 使い方.html" class="category-badge">Runway 使い方</a>
+                </div>
+                <div class="card-tags mt-1"><span class="tag">Runway 使い方</span><span class="tag">AI動画生成</span><span class="tag">Gen-4</span><span class="tag">プロンプト</span><span class="tag">モーション制御</span></div>
+            </header>
+
+            
+
+            
+            <details class="toc-container" open>
+                <summary class="toc-title" style="cursor:pointer;user-select:none;">目次</summary>
+                <div class="toc"><span class="toctitle">目次</span><ul>
+<li><a href="#_1">この記事でわかること</a></li>
+<li><a href="#_2">結論</a></li>
+<li><a href="#_3">本題</a><ul>
+<li><a href="#runway-gen-4">Runway Gen-4の始め方：アカウント登録から基本操作まで</a></li>
+<li><a href="#togen-4">テキストtoビデオの極意：プロンプト設計とGen-4の新機能</a></li>
+<li><a href="#_6">高度な映像表現：モーション制御とカメラワーク設定</a></li>
+<li><a href="#_7">商用利用、著作権、ライセンスについて</a></li>
+</ul>
+</li>
+<li><a href="#_8">プロの映像制作ワークフロー</a><ul>
+<li><a href="#premiere-pro-davinci-resolve-after-effects">Premiere Pro / DaVinci Resolve / After Effects との連携方法</a></li>
+</ul>
+</li>
+<li><a href="#ai">他のAI動画ツールとの比較</a></li>
+<li><a href="#faq">よくある質問（FAQ）</a><ul>
+<li><a href="#q1-runway-gen-4">Q1: Runway Gen-4は初心者でも使いこなせますか？</a></li>
+<li><a href="#q2">Q2: 生成した動画の著作権はどうなりますか？商用利用は可能ですか？</a></li>
+<li><a href="#q3">Q3: 無料プランでどこまで使えますか？</a></li>
+</ul>
+</li>
+<li><a href="#_9">おすすめサービス・ツール</a></li>
+<li><a href="#_10">まとめ</a></li>
+</ul>
+</div>
+
+            </details>
+            
+
+            <div class="article-body"><h1 id="runway-ai-runway-2026ai">Runway AI動画クリエイターズガイド: Runway 使い方 2026年最新版！AI動画生成でプロ級映像を</h1>
+<h2 id="_1">この記事でわかること</h2>
+<ul>
+<li>Runway Gen-4の基本操作から高度なモーション制御、カメラワーク設定までを実践的に習得できます。</li>
+<li>プロの映像制作ワークフローへの組み込み方、そしてRunwayが他のAI動画ツールとどう違うのかを具体的に理解できます。</li>
+<li>商用利用、著作権、料金プランといった利用上の重要事項を把握し、安心してRunwayを活用できるようになります。</li>
+</ul>
+<h2 id="_2">結論</h2>
+<p>Runway Gen-4は、直感的な操作と高性能なAIが融合した最先端のAI動画生成ツールです。テキストからリアルな映像を生成するだけでなく、緻密なモーション制御やカメラワーク設定、さらには既存映像へのシームレスなAI適用により、クリエイターの想像力を最大限に引き出します。2026年にはその進化はさらに加速し、プロフェッショナルな映像制作現場においても、アイデアの具現化から最終的な編集まで、不可欠なツールとしてその地位を確立しています。特にGen-4で強化された一貫性のあるキャラクターやスタイル維持機能は、制作効率と品質を飛躍的に向上させます。</p>
+<h2 id="_3">本題</h2>
+<h3 id="runway-gen-4">Runway Gen-4の始め方：アカウント登録から基本操作まで</h3>
+<p>Runway Gen-4を始めるのは非常に簡単です。まずはRunwayの公式サイト（runwayml.com）にアクセスし、アカウントを登録することからスタートします。メールアドレス、Googleアカウント、またはApple IDで手軽に登録が可能です。無料プランでも一定のクレジットが付与され、基本的な機能を体験できますが、より本格的な制作には有料プランへの移行を検討することをお勧めします。</p>
+<ol>
+<li><strong>アカウント登録</strong>: 公式サイトにアクセスし、「Sign Up」ボタンをクリック。任意の認証方法を選択し、指示に従って登録を完了します。</li>
+<li><strong>プロジェクトの作成</strong>: ログイン後、ダッシュボードから「Create New Project」を選択します。ここで「Gen-4」などのAI動画生成モードを選択します。</li>
+<li><strong>UIの概要</strong>: Runwayのインターフェースは直感的で、中央にプレビューウィンドウ、左側にモード選択、右側に詳細設定パネルが配置されています。初めての方でも迷うことなく操作できるよう設計されています。</li>
+</ol>
+<p>無料プランでは生成できる動画の長さや解像度、クレジット消費に制限がありますが、Gen-4の基本機能やプロンプトの動作を確認するには十分です。本格的な映像制作や商用利用を視野に入れる場合、Standard、Pro、Unlimitedといった有料プランへのアップグレードを検討しましょう。各プランにはより多くのクレジット、高解像度エクスポート、商用利用権、優先的なGPUアクセスなどが含まれます。{{internal_link:Runway 料金プラン解説}}</p>
+<h3 id="togen-4">テキストtoビデオの極意：プロンプト設計とGen-4の新機能</h3>
+<p>Runway Gen-4の真骨頂は、テキストプロンプトから高品質な動画を生成する能力にあります。効果的なプロンプト設計が、イメージ通りの映像を生み出す鍵となります。</p>
+<h4 id="_4">効果的なプロンプトの書き方</h4>
+<ul>
+<li><strong>具体性</strong>: 抽象的な表現は避け、具体的な描写を心がけます。例：「A majestic lion roaring in the savanna at sunset, cinematic, golden hour, wide shot」</li>
+<li><strong>キーワードの羅列</strong>: 映像の要素（被写体、場所、時間帯、アクション、アングル、照明、雰囲気、スタイル）をキーワードとして羅列します。</li>
+<li><strong>ネガティブプロンプト</strong>: 「Negative Prompt」欄には、生成してほしくない要素（例：<code>low quality</code>, <code>blurry</code>, <code>cartoon</code>, <code>distorted</code>）を記述することで、品質を向上させます。</li>
+</ul>
+<h4 id="gen-4">Gen-4の最新機能</h4>
+<p>2026年のGen-4では、以下の機能が特に強化され、映像の一貫性と品質が飛躍的に向上しました。
+-   <strong>Consistent Characters</strong>: シーンやカットが変わっても、同一のキャラクターの見た目を安定して維持できます。これにより、キャラクター主体の物語性のある動画制作が格段に容易になりました。
+-   <strong>Style Reference</strong>: 特定の画像や動画のスタイル（色彩、質感、ライティングなど）をプロンプトとして参照し、生成される動画にそのスタイルを適用できます。これにより、ブランドイメージに沿った一貫したルックを保つことが可能です。
+-   <strong>Structure Reference</strong>: 参照画像や動画の構図や動きのパターンを読み取り、それをベースにした動画を生成できます。複雑なモーションやカメラワークの再現に役立ちます。</p>
+<h4 id="_5">具体的なプロンプト例</h4>
+<p><strong>例1: テキストtoビデオ（風景）</strong>
+-   <strong>プロンプト</strong>: <code>A serene Japanese garden, cherry blossoms falling, gentle breeze, traditional lanterns, peaceful atmosphere, cinematic, 4K, warm lighting.</code>
+-   <strong>ネガティブプロンプト</strong>: <code>blurry, low quality, cartoon, noisy, distorted.</code>
+-   <strong>設定</strong>: Aspect Ratio <code>16:9</code>, Seed <code>Random</code>, Motion <code>Moderate (5/10)</code></p>
+<p><strong>例2: テキストtoビデオ（キャラクターアクション）</strong>
+-   <strong>プロンプト</strong>: <code>A young woman with red hair, wearing a leather jacket, walking confidently through a futuristic neon-lit city street at night, rain on the pavement reflecting lights, close-up on her face, cinematic, high detail.</code>
+-   <strong>ネガティブプロンプト</strong>: <code>ugly, deformed, disfigured, extra limbs, bad anatomy, bad lighting.</code>
+-   <strong>設定</strong>: Aspect Ratio <code>9:16</code> (SNS向け), Seed <code>Random</code>, Motion <code>Subtle (3/10)</code>, Consistent Characters <code>On</code></p>
+<h3 id="_6">高度な映像表現：モーション制御とカメラワーク設定</h3>
+<p>Runway Gen-4は、単に動画を生成するだけでなく、生成される映像の動きやカメラワークを細かく制御することで、クリエイターの意図をより忠実に反映できます。</p>
+<ul>
+<li><strong>モーションの強さ (Motion Strength)</strong>: スライダーで0から10まで調整可能です。0に近づけるほど静止画に近い、動きの少ない映像に、10に近づけるほどダイナミックで大きな動きの映像になります。微細な揺れから激しいアクションまで、シーンに合わせて使い分けます。</li>
+<li><strong>ランダムシード (Random Seed)</strong>: シード値を固定することで、同じプロンプトでも常に同じような初期生成結果を得ることができます。異なるバリエーションを試す際には「Random」に、微調整を行う際にはシードを固定して再生成するのが効果的です。</li>
+<li><strong>カメラ制御 (Camera Motion)</strong>: Gen-4では、パン（左右）、チルト（上下）、ズーム（イン/アウト）、ローテーション（回転）といったカメラの動きを個別に設定できます。例えば、「Zoom In (Slow)」を選択し、わずかなパンを加えることで、被写体への集中度を高めつつ奥行き感を表現できます。</li>
+<li><strong>Inpainting &amp; Outpainting</strong>: 既存の動画や画像の特定部分をAIで修正・追加（Inpainting）したり、動画のフレームの外側をシームレスに拡張（Outpainting）したりする機能です。これにより、生成された動画の構図を後から調整したり、フレーム外に新しい要素を追加したりすることが可能になります。</li>
+<li><strong>アップスケーリングとフレームレート調整</strong>: 生成された動画を最大4K解像度までアップスケールし、24fps、30fps、60fpsといったフレームレートに調整できます。高品質な最終成果物を得るために不可欠な機能です。</li>
+</ul>
+<h3 id="_7">商用利用、著作権、ライセンスについて</h3>
+<p>Runwayで生成された動画の著作権や商用利用に関する規定は、利用しているプランによって異なります。</p>
+<ul>
+<li><strong>著作権の帰属</strong>: 基本的に、有料プランのユーザーがRunwayで生成したコンテンツの著作権は、そのユーザーに帰属します。Runway社がその著作権を主張することはありません。無料プランの場合も著作権はユーザーに帰属しますが、商用利用には制限がある場合があります。</li>
+<li><strong>商用利用</strong>: Standard以上の有料プランでは、生成された動画を映画、広告、ミュージックビデオ、YouTubeコンテンツなど、あらゆる商用目的で利用することが許可されています。ただし、生成元の素材（画像や動画）に著作権や肖像権が存在する場合は、それらを侵害しないよう注意が必要です。{{internal_link:AI生成物の著作権と法的リスク}}</li>
+<li><strong>ライセンス</strong>: 各プランの利用規約（Terms of Service）をよく読み、自身の利用目的に合ったプランを選択することが重要です。特に、チームでの利用や大量のコンテンツ生成を行う場合は、より上位のプランを検討しましょう。</li>
+</ul>
+<h2 id="_8">プロの映像制作ワークフロー</h2>
+<p>Runway Gen-4で生成された動画は、プロの映像制作ソフトウェアとシームレスに連携し、最終的な作品へと昇華させることができます。</p>
+<h3 id="premiere-pro-davinci-resolve-after-effects">Premiere Pro / DaVinci Resolve / After Effects との連携方法</h3>
+<ol>
+<li><strong>Runwayからのエクスポート</strong>: 生成された動画は、MP4やMOVなどの標準的な動画フォーマットでダウンロードできます。高品質な最終成果物を得るため、可能な限り高解像度（HD、2K、4K）でダウンロードしましょう。</li>
+<li><strong>NLEへのインポート</strong>: ダウンロードした動画ファイルを、お使いのNLE（Non-Linear Editor）にインポートします。<ul>
+<li><strong>Adobe Premiere Pro</strong>: ドラッグ＆ドロップでプロジェクトパネルに読み込み、タイムラインに配置します。Runwayで生成した複数のクリップを繋ぎ合わせ、トランジションやテロップを追加し、ストーリーを構築します。</li>
+<li><strong>DaVinci Resolve</strong>: メディアプールにインポート後、編集ページでカットや構成を行います。RunwayのAI動画は色彩情報が豊富なので、DaVinci Resolveの強力なカラーグレーディングツール（Colorページ）でさらにルックを洗練させることができます。FusionページでVFXやモーショングラフィックスを追加することも可能です。</li>
+<li><strong>Adobe After Effects</strong>: Runwayで生成した短いクリップや背景素材をAfter Effectsにインポートし、複雑なVFX合成、モーショングラフィックス、トラッキング、コンポジット作業を行います。例えば、Runwayで生成した背景動画の上に、After Effectsで制作した3Dオブジェクトやキャラクターを合成する、といった使い方が考えられます。</li>
+</ul>
+</li>
+<li><strong>音響調整と書き出し</strong>: 編集・合成が完了したら、NLEのオーディオミキサーでサウンドエフェクトやBGMを調整します。最後に、ターゲットとする配信媒体（YouTube、WebCM、映画祭など）に合わせて最適なフォーマットとコーデックで書き出しを行います。</li>
+</ol>
+<p>Runwayは、VFX素材の生成、プリビズ（Pre-visualization）の作成、インスピレーションを得るための映像生成など、プロのワークフローの様々な段階で強力なアシスタントとして機能します。</p>
+<h2 id="ai">他のAI動画ツールとの比較</h2>
+<p>2026年現在、AI動画生成ツールの競争は激化しています。Runway Gen-4は独自の強みを持っていますが、他の主要ツールと比較することで、それぞれの特性がより明確になります。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">比較項目</th>
+<th style="text-align: left;">Runway Gen-4</th>
+<th style="text-align: left;">Google Veo</th>
+<th style="text-align: left;">Kuaishou Kling</th>
+<th style="text-align: left;">Pika Labs</th>
+<th style="text-align: left;">OpenAI 旧Sora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>生成品質</strong></td>
+<td style="text-align: left;">高品質。リアル系からアート系まで多様。</td>
+<td style="text-align: left;">超高品質。特に実写寄りの映像に強い。</td>
+<td style="text-align: left;">高品質。比較的リアル系が多い。</td>
+<td style="text-align: left;">中〜高品質。アニメ調、独特のスタイルに強み。</td>
+<td style="text-align: left;">最高品質。超リアルな長尺映像の生成が可能。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>モーション制御</strong></td>
+<td style="text-align: left;">細やかな調整（Motion Strength, Camera Motion）。</td>
+<td style="text-align: left;">細かい制御可能。物理法則に忠実。</td>
+<td style="text-align: left;">ある程度の制御。スムーズな動き。</td>
+<td style="text-align: left;">直感的な制御（Camera Control, Motion Brush）。</td>
+<td style="text-align: left;">プロンプトベースで非常に複雑な動きを再現。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>カメラワーク</strong></td>
+<td style="text-align: left;">パン、チルト、ズーム、ローテーションを個別に設定可能。</td>
+<td style="text-align: left;">リアルなカメラ挙動を再現。</td>
+<td style="text-align: left;">基本的なカメラワークをサポート。</td>
+<td style="text-align: left;">ズーム、パン、ローテーションを簡単に適用。</td>
+<td style="text-align: left;">プロンプトで指定した通りのダイナミックなカメラワーク。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>スタイル多様性</strong></td>
+<td style="text-align: left;">Style Reference機能で非常に豊富。</td>
+<td style="text-align: left;">実写ベースが多いが、プロンプトで多様化可能。</td>
+<td style="text-align: left;">比較的リアル系に特化。</td>
+<td style="text-align: left;">アニメ、CG、絵画風など幅広いスタイル。</td>
+<td style="text-align: left;">実写に近いリアリズムを基盤に、多様な表現。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>商用利用</strong></td>
+<td style="text-align: left;">有料プランで可能。</td>
+<td style="text-align: left;">通常、有料プランやAPI経由で可能（要確認）。</td>
+<td style="text-align: left;">規約による（通常は可能）。</td>
+<td style="text-align: left;">有料プランで可能。</td>
+<td style="text-align: left;">通常、有料プランやAPI経由で可能（要確認）。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>料金体系</strong></td>
+<td style="text-align: left;">クレジットベース（月額/年額プラン）。</td>
+<td style="text-align: left;">API利用料、またはサブスクリプション。</td>
+<td style="text-align: left;">クレジットベース（プラットフォームに依存）。</td>
+<td style="text-align: left;">クレジットベース（月額/年額プラン）。</td>
+<td style="text-align: left;">API利用料、または特別なライセンス契約。</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>強み/弱み</strong></td>
+<td style="text-align: left;"><strong>強み:</strong> 高度な制御、編集機能、一貫性維持。</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>弱み:</strong> 長尺動画の生成は分割が必要。</td>
+<td style="text-align: left;"><strong>強み:</strong> 最高水準のリアリズム、物理エンジン。</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>弱み:</strong> アクセスが限定的、計算コスト高。</td>
+<td style="text-align: left;"><strong>強み:</strong> 高速生成、アクセス容易性。</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>弱み:</strong> スタイルや制御の自由度はやや低い。</td>
+<td style="text-align: left;"><strong>強み:</strong> スピーディーな試作、独特の表現。</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>弱み:</strong> 長尺や超高精細な生成は苦手。</td>
+<td style="text-align: left;"><strong>強み:</strong> 超長尺、高解像度、物理的正確性。</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>弱み:</strong> 一般公開は限定的、高い処理コスト。</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Runway Gen-4は、動画生成だけでなく、既存の動画編集や加工機能（Green Screen、Inpaintingなど）も充実している点で、映像制作のあらゆる段階で活用できる「統合的なクリエイティブプラットフォーム」としての強みを持っています。一方で、Veoや旧Soraのような超高精細な長尺リアル映像の生成においては、まだ発展途上と言えるでしょう。各ツールの特性を理解し、制作目的に合わせて使い分けることが重要です。</p>
+<h2 id="faq">よくある質問（FAQ）</h2>
+<h3 id="q1-runway-gen-4">Q1: Runway Gen-4は初心者でも使いこなせますか？</h3>
+<p>A1: はい、Runway Gen-4は直感的なユーザーインターフェースを備えており、初心者の方でも比較的簡単に使い始めることができます。テキストtoビデオの基本的な操作は非常にシンプルで、詳細な設定項目も視覚的に分かりやすく配置されています。公式のチュートリアルやコミュニティの情報を参考にしながら、様々なプロンプトや設定を試すことで、すぐに高品質な動画生成のコツを掴むことができるでしょう。当サイトでも、初心者向けのガイドを多数公開していますので、ぜひご活用ください。</p>
+<h3 id="q2">Q2: 生成した動画の著作権はどうなりますか？商用利用は可能ですか？</h3>
+<p>A2: 有料プラン（Standard以上）をご利用の場合、Runwayで生成された動画の著作権は完全にユーザーに帰属し、商用利用も可能です。映画制作、広告、SNSコンテンツなど、あらゆる商業目的で自由にお使いいただけます。ただし、無料プランの場合は商用利用に一部制限がある場合がありますので、必ず利用規約をご確認ください。また、生成元の画像やプロンプトに著作権や肖像権がある場合、それらを侵害しないよう注意が必要です。</p>
+<h3 id="q3">Q3: 無料プランでどこまで使えますか？</h3>
+<p>A3: Runwayの無料プランでは、一定量のクレジットが付与され、Gen-4を含む基本的なAI動画生成機能を体験できます。動画の生成回数、長さ、解像度には制限がありますが、Runwayのパワーと可能性を試すには十分な内容です。本格的なプロジェクトや長時間の動画制作、高解像度での書き出し、商用利用を視野に入れる場合は、より多くのクレジットや機能を提供する有料プラン（Standard、Pro、Unlimited）へのアップグレードをご検討ください。</p>
+<h2 id="_9">おすすめサービス・ツール</h2>
+<p>この記事で紹介した内容を実践するために、以下のサービスがおすすめです。</p>
+<ul>
+<li><strong><a href="https://runwayml.com">Runway</a></strong> - Runwayに登録する</li>
+<li><strong><a href="https://www.amazon.co.jp?tag=musclelove07-22">Amazon</a></strong> - AmazonでAI動画制作の書籍を探す</li>
+<li><strong><a href="https://www.rakuten.co.jp">楽天ブックス</a></strong> - 楽天でAI動画制作の書籍を探す</li>
+</ul>
+<p><em>※ 上記リンクからご利用いただくと、サイト運営の支援になります。</em></p>
+<h2 id="_10">まとめ</h2>
+<p>Runway Gen-4は、2026年においてAI動画生成の最前線を走る革新的なツールです。直感的なインターフェースとGen-4で強化された高度なモーション制御、カメラワーク設定、そしてキャラクターやスタイルの高い一貫性により、初心者からプロの映像クリエイターまで、あらゆるユーザーの創造性を強力にサポートします。商用利用の明確な規約や、主要なNLEとのシームレスな連携機能は、Runwayが現代の映像制作ワークフローにおいて不可欠な存在であることを示しています。</p>
+<p>この記事で紹介した「Runway 使い方」の基本から応用までを習得し、あなたも次世代の映像表現を体験してみてください。まずは無料プランから試して、Runway Gen-4の可能性を肌で感じてみましょう。さあ、あなたのアイデアをRunwayで鮮やかな映像へと変換する旅を始めましょう！</p>
+<p>{{internal_link:Runway Gen-4の新機能徹底解説}}</p></div>
+
+            
+
+            <div class="share-buttons">
+                <a class="share-btn share-btn-twitter" href="https://twitter.com/intent/tweet?url=https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html&text=Runway 使い方 2026年最新版！AI動画生成でプロ級映像を" target="_blank" rel="noopener noreferrer">X でシェア</a>
+                <a class="share-btn share-btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="share-btn share-btn-hatena" href="https://b.hatena.ne.jp/add?mode=confirm&url=https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html&title=Runway 使い方 2026年最新版！AI動画生成でプロ級映像を" target="_blank" rel="noopener noreferrer">はてブ</a>
+                <a class="share-btn share-btn-line" href="https://social-plugins.line.me/lineit/share?url=https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026.html" target="_blank" rel="noopener noreferrer">LINE</a>
+            </div>
+        </article>
+
+        
+    </div>
+</div>
+
+    </main>
+
+    
+    
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-section">
+                    <h4>Runway AI動画クリエイターズガイド</h4>
+                    <p class="text-muted" style="font-size:0.85rem;max-width:300px;">プロ向けAI動画生成RunwayのGen-4使い方・最新機能・Veo比較を毎日更新。映像クリエイターのためのAI動画生成完全ガイド。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>カテゴリ</h4>
+                    <ul class="footer-links"></ul>
+                </div>
+                <div class="footer-section">
+                    <h4>リンク</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://musclelove-777.github.io/runway-creators-guide/sitemap.xml">サイトマップ</a></li>
+                        <li><a href="https://musclelove-777.github.io/runway-creators-guide/feed.xml">RSSフィード</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">&copy; 2026 Runway AI動画クリエイターズガイド. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.getElementById('themeToggle');
+        var icon = document.getElementById('themeIcon');
+        var html = document.documentElement;
+        function getStored() { try { return localStorage.getItem('theme'); } catch(e) { return null; } }
+        function setTheme(t) {
+            html.setAttribute('data-theme', t);
+            icon.textContent = t === 'light' ? '\u2600' : '\u263E';
+            try { localStorage.setItem('theme', t); } catch(e) {}
+        }
+        var s = getStored(); if (s) setTheme(s);
+        toggle.addEventListener('click', function() {
+            setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
+    })();
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a[href^="http"]').forEach(function(l) {
+            if (l.hostname !== window.location.hostname) {
+                l.setAttribute('target', '_blank');
+                l.setAttribute('rel', 'noopener noreferrer');
+            }
+        });
+    });
+    </script>
+</body>
+</html>
