@@ -1,0 +1,40 @@
+{
+  "title": "Runway 使い方 2026年版！AI動画生成Gen-4徹底ガイド",
+  "meta_description": "Runway Gen-4の最新使い方ガイド。初心者からプロまで、AI動画生成の基本、モーション制御、カメラワーク、プロンプト、商用利用、他ツール比較を2026年情報で徹底解説。",
+  "slug": "runway-tsukaikata-gen4-2026-guide",
+  "tags": [
+    "Runway",
+    "AI動画生成",
+    "テキストtoビデオ",
+    "Gen-4",
+    "プロンプト"
+  ],
+  "faq": [
+    {
+      "question": "Runwayで生成した動画は商用利用できますか？",
+      "answer": "はい、有料プラン（Standard、Pro、Unlimited）をご利用の場合、生成した動画は商用利用が可能です。著作権もお客様に帰属します。ただし、無料のBasicプランには制限がある場合がありますので、最新の利用規約をご確認ください。"
+    },
+    {
+      "question": "Runway Gen-4のクレジット消費量はどのくらいですか？",
+      "answer": "Gen-4での動画生成は、動画の秒数、解像度、複雑さによって消費クレジットが異なりますが、一般的に10秒の動画で数十クレジット程度を消費します。高度なモーション制御や高解像度での生成は、より多くのクレジットが必要です。効率的な利用のためには、短いテスト生成を繰り返してから本番生成を行うことをお勧めします。"
+    },
+    {
+      "question": "プロンプト作成で高品質な動画を生成するためのコツはありますか？",
+      "answer": "プロンプトは具体的に、そして詳細に記述することが重要です。「何が（主語）、どのように（動きや状態）、どこで（場所）、どんな雰囲気で（スタイル、ライティング）」といった要素を盛り込みましょう。また、カメラアングル（`cinematic shot`, `wide angle`）、解像度（`8K`, `ultra-detailed`）、ムード（`dramatic`, `serene`）なども加えると効果的です。ネガティブプロンプト（`--no blurry, low quality`など）を使って、望まない要素を除外するのも有効です。"
+    }
+  ],
+  "content": "# Runway 使い方 2026年版！AI動画生成Gen-4徹底ガイド\n\nRunway AI動画クリエイターズガイドへようこそ！本記事では、AI動画生成の最前線を走るRunwayの最新モデル「Gen-4」に焦点を当て、その基本的な使い方からプロのワークフローへの組み込み方まで、2026年現在の最新情報をもとに徹底解説します。\n\n## この記事でわかること\n- Runway Gen-4を使ったAI動画生成の基本操作と高度なモーション制御・カメラワーク設定を習得できます。\n- 商用利用、著作権、料金プランに関する疑問を解消し、安心してRunwayを利用できるようになります。\n- プロの映像制作ツール（Premiere Pro、DaVinci Resolve、After Effects）との連携方法を理解し、制作効率を飛躍的に向上させられます。\n\n## 結論\nRunway Gen-4は、直感的なインターフェースと驚異的な生成品質、そして高度なモーション・カメラ制御機能により、初心者からプロフェッショナルまで、あらゆるレベルのクリエイターが思い描く映像を短時間で具現化できる、2026年現在最も強力なAI動画生成ツールの一つです。特に「テキストtoビデオ」機能の進化と細やかなコントロールオプションが、映像制作の新たな地平を切り開いています。\n\n## 本題\n\n### 1. Runway Gen-4の基礎：アカウント開設から動画生成の第一歩\n\nRunway Gen-4は、テキストプロンプトや画像、既存の動画から、わずか数秒で高品質な動画を生成できる革新的なAIモデルです。まずは、Runwayアカウントの開設から基本的な「Runway 使い方」を見ていきましょう。\n\n#### 1.1 アカウント開設と無料プランの活用\nRunwayの公式サイト（runwayml.com）にアクセスし、「Sign Up Free」からアカウントを作成します。Googleアカウント連携も可能です。\n\nRunwayには、一部機能に制限があるものの、無料で試せる「Basic」プランが用意されています。Gen-4の基本的な「テキストtoビデオ」機能や編集ツールを体験するには十分です。本格的な制作や商用利用を考える場合は、後述の有料プランへの移行を検討しましょう。\n\n#### 1.2 インターフェースの概要と「テキストtoビデオ」の基本\nログイン後、ダッシュボードから「Generate Video」を選択し、「Text to Video」タブを開きます。これがGen-4の主要なインターフェースです。\n\n**Runway テキストtoビデオの基本操作手順：**\n1.  **プロンプト入力:** 中央のテキストボックスに、生成したい動画の内容を具体的に記述します。\n2.  **パラメータ設定:** 画面右側には、動画のスタイル、アスペクト比、シード値などの設定項目があります。\n    *   **Seed（シード値）:** 生成される動画の一意性を決定する数値。気に入った生成結果が出たら、そのシード値をメモしておくと、似たスタイルの動画を再生成する際に役立ちます。\n    *   **Aspect Ratio（アスペクト比）:** 16:9（ワイドスクリーン）、9:16（縦型動画）、1:1（スクエア）などから選択します。\n    *   **Style（スタイル）:** アニメーション、実写、イラストなど、視覚的なスタイルを指定できます。\n3.  **Generate:** 「Generate」ボタンをクリックすると、AIが動画生成を開始します。通常、数秒から数十秒で動画が生成されます。\n\n**プロンプト例：**\n`\n\n## おすすめサービス・ツール\n\nこの記事で紹介した内容を実践するために、以下のサービスがおすすめです。\n\n- **[Runway](https://runwayml.com)** - Runwayに登録する\n- **[Amazon](https://www.amazon.co.jp?tag=musclelove07-22)** - AmazonでAI動画制作の書籍を探す\n- **[楽天ブックス](https://www.rakuten.co.jp)** - 楽天でAI動画制作の書籍を探す\n\n*※ 上記リンクからご利用いただくと、サイト運営の支援になります。*\n",
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "keyword": "Runway 使い方",
+  "category": "Runway 使い方",
+  "generated_at": "2026-04-20T05:39:41.106449",
+  "seo_score": 77,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"Runway 使い方 2026年版！AI動画生成Gen-4徹底ガイド\",\n  \"description\": \"Runway Gen-4の最新使い方ガイド。初心者からプロまで、AI動画生成の基本、モーション制御、カメラワーク、プロンプト、商用利用、他ツール比較を2026年情報で徹底解説。\",\n  \"url\": \"https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026-guide.html\",\n  \"datePublished\": \"2026-04-20T05:39:41.106449\",\n  \"dateModified\": \"2026-04-20T05:39:41.106449\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Runway AI動画クリエイターズガイド\",\n    \"url\": \"https://musclelove-777.github.io/runway-creators-guide\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Runway AI動画クリエイターズガイド\",\n    \"url\": \"https://musclelove-777.github.io/runway-creators-guide\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://musclelove-777.github.io/runway-creators-guide/articles/runway-tsukaikata-gen4-2026-guide.html\"\n  },\n  \"keywords\": \"Runway, AI動画生成, テキストtoビデオ, Gen-4, プロンプト\",\n  \"articleSection\": \"Runway 使い方\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Runwayで生成した動画は商用利用できますか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"はい、有料プラン（Standard、Pro、Unlimited）をご利用の場合、生成した動画は商用利用が可能です。著作権もお客様に帰属します。ただし、無料のBasicプランには制限がある場合がありますので、最新の利用規約をご確認ください。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Runway Gen-4のクレジット消費量はどのくらいですか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Gen-4での動画生成は、動画の秒数、解像度、複雑さによって消費クレジットが異なりますが、一般的に10秒の動画で数十クレジット程度を消費します。高度なモーション制御や高解像度での生成は、より多くのクレジットが必要です。効率的な利用のためには、短いテスト生成を繰り返してから本番生成を行うことをお勧めします。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"プロンプト作成で高品質な動画を生成するためのコツはありますか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"プロンプトは具体的に、そして詳細に記述することが重要です。「何が（主語）、どのように（動きや状態）、どこで（場所）、どんな雰囲気で（スタイル、ライティング）」といった要素を盛り込みましょう。また、カメラアングル（`cinematic shot`, `wide angle`）、解像度（`8K`, `ultra-detailed`）、ムード（`dramatic`, `serene`）なども加えると効果的です。ネガティブプロンプト（`--no blurry, low quality`など）を使って、望まない要素を除外するのも有効です。\"\n      }\n    }\n  ]\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/runway-creators-guide\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Runway 使い方\",\n      \"item\": \"https://musclelove-777.github.io/runway-creators-guide/category/Runway 使い方\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Runway 使い方 2026年版！AI動画生成Gen-4徹底ガイド\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": true,
+  "affiliate_count": 3
+}
