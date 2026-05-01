@@ -1,0 +1,26 @@
+{
+  "title": "Runway Gen-4の使い方完全ガイド｜テキストから高品質動画を作成する方法",
+  "content": "# Runway Gen-4の使い方完全ガイド｜テキストから高品質動画を作成する方法\n\n## この記事でわかること\n\n- **Runway Gen-4でテキストから動画を自動生成する操作手順**：アカウント作成から最初の動画生成まで、初心者向けに丁寧に解説します。\n- **モーション制御・カメラワーク設定の活用法**：プロフェッショナルな映像表現を実現するための詳細なパラメータ設定とプロンプト例を提供します。\n- **映像制作ワークフローへの組み込み方**：Premiere Pro・DaVinci Resolveなどの既存ツールと連携させ、実務的な運用フローを構築する方法を紹介します。\n\n---\n\n## 結論\n\nRunway Gen-4は、テキストプロンプトから高品質な動画を生成できる最先端のAI動画生成ツールです。**操作は非常にシンプル**で、プロンプト入力→生成→ダウンロードの3ステップで完結します。初心者でも数分で使い始められ、プロンプト工夫とモーション制御設定により、プロフェッショナルレベルの映像表現が可能です。特に「カメラパン」「ズーム」「オブジェクトトラッキング」などの動き制御により、単なるテキスト生成ツールを超えた映像制作が実現できます。本記事では、基本操作からプロワークフロー統合まで、実践的な全てを解説します。\n\n---\n\n## Runway Gen-4を始める：3ステップで動画生成\n\n### アカウント作成と基本設定\n\nまずRunway MLの公式サイト（https://runway.com）にアクセスし、Googleアカウントまたはメールアドレスで登録します。無料版では月500クレジット（約15分の動画生成に相当）が付与されます。\n\n登録後、ダッシュボードの「New Project」をクリックして新しいプロジェクトを作成します。プロジェクト名を設定し、作業用フォルダを整理することで、複数案件の管理がスムーズになります。\n\n### テキストtoビデオ生成の基本操作\n\nRunwayのテキストtoビデオ機能は、以下の流れで動作します：\n\n1. **プロンプト入力**：左側パネルのテキストボックスに、動画の内容を日本語または英語で入力します。\n2. **生成時間設定**：デフォルト4秒から最大1分まで、動画の長さを指定します。クレジット消費量は時間に比例します。\n3. **スタイル選択**（オプション）：「cinematic」「realistic」「anime」など、映像スタイルを選択できます。\n4. **生成実行**：「Generate」ボタンを押すと、GPUで動画レンダリングが開始されます（通常30秒～3分）。\n5. **結果確認・ダウンロード**：生成完了後、プレビューで確認し、MP4形式でダウンロードできます。\n\n**実践的なプロンプト例：**\n\n\n## おすすめサービス・ツール\n\nこの記事で紹介した内容を実践するために、以下のサービスがおすすめです。\n\n- **[Runway](https://runwayml.com)** - Runwayに登録する\n- **[Amazon](https://www.amazon.co.jp?tag=musclelove07-22)** - AmazonでAI動画制作の書籍を探す\n- **[楽天ブックス](https://www.rakuten.co.jp)** - 楽天でAI動画制作の書籍を探す\n\n*※ 上記リンクからご利用いただくと、サイト運営の支援になります。*\n",
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "image_search_query": "",
+  "meta_description": "Runway Gen-4の使い方完全ガイド｜テキストから高品質動画を作成する方法\n\n この記事でわかること\n\n- Runway Gen-4でテキストから動画を自動生成する操作手順：アカウント作成から最初の動画生成まで、初心者向けに丁寧に解",
+  "tags": [
+    "自動生成",
+    "ブログ",
+    "記事",
+    "SEO",
+    "最新"
+  ],
+  "slug": "runway-gen-4",
+  "keyword": "Runway 使い方",
+  "category": "Runway 使い方",
+  "generated_at": "2026-05-01T09:25:31.446182",
+  "seo_score": 47,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"Runway Gen-4の使い方完全ガイド｜テキストから高品質動画を作成する方法\",\n  \"description\": \"Runway Gen-4の使い方完全ガイド｜テキストから高品質動画を作成する方法\\n\\n この記事でわかること\\n\\n- Runway Gen-4でテキストから動画を自動生成する操作手順：アカウント作成から最初の動画生成まで、初心者向けに丁寧に解\",\n  \"url\": \"https://musclelove-777.github.io/runway-creators-guide/articles/runway-gen-4.html\",\n  \"datePublished\": \"2026-05-01T09:25:31.446182\",\n  \"dateModified\": \"2026-05-01T09:25:31.446182\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Runway AI動画クリエイターズガイド\",\n    \"url\": \"https://musclelove-777.github.io/runway-creators-guide\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Runway AI動画クリエイターズガイド\",\n    \"url\": \"https://musclelove-777.github.io/runway-creators-guide\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://musclelove-777.github.io/runway-creators-guide/articles/runway-gen-4.html\"\n  },\n  \"keywords\": \"自動生成, ブログ, 記事, SEO, 最新\",\n  \"articleSection\": \"Runway 使い方\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/runway-creators-guide\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Runway 使い方\",\n      \"item\": \"https://musclelove-777.github.io/runway-creators-guide/category/Runway 使い方\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Runway Gen-4の使い方完全ガイド｜テキストから高品質動画を作成する方法\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": true,
+  "affiliate_count": 3
+}
